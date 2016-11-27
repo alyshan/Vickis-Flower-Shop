@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,inital-scale=1">
+	<title>Vikki's Flower Shop</title>
+	<meta name="description" content="Home page for Vikki's Flower Shop">
+	<link rel="stylesheet" href="css/styles.css"> 
+</head>
+
+<body>
+
+<!-- Logo -->
+
+	<div id="logo">
+    <img src="img/floralLogocopy.png" alt="Vikki's Flower Shop Logo">
+</div>
+
+<!-- Menu -->
+<nav id="menu">
+    <ul>
+        <li class="full-width">
+        <!-- products -->
+            <a class="top-heading" href="products.html">Flowers</a>
+        </li>
+        <!-- about -->
+        <li> 
+        <a class="top-heading" href="#">About Vikki</a>
+        </li>
+        <!-- Home -->
+		<li>
+            <a class="top-heading" href="index.html">Home</a>
+        </li>        <li>
+            <a class="top-heading" href="find-us.html">Find Us</a>
+        </li>
+        <!-- ordering online -->
+        <li>
+            <a class="top-heading" href="#">Order Online</a>
+        </li>
+
+    </ul>
+</nav>
+
+<!-- Where to find us info -->
+<main>
+    <section id="location">
+        <h1 class="location-head">Where To Find Us</h1>
+        <p class="location">We are located at Level 4 -Plimmer Tower, Wellington 6011
+        <br>
+        Up Plimmer steps, between Lambton Quay and Boulcott Street.
+        <br>
+        All orders can be made instore or online for both pick up or delivery</p>
+    </section>
+
+    <!-- Map -->
+     <div id="map-container"></div>
+
+</main>
+
+<!-- Map JS -->
+<script src="js/geolocation.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?callback=initMap&libraries=geometry"></script>
+
+</body>
+
+</html>
